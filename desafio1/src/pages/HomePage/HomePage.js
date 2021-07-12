@@ -9,6 +9,11 @@ const HomePage = () => {
             <Search />
             <Suggestions />
             <ProductsCard />
+            <ProductsCard />
+            <ProductsCard />
+            <ProductsCard />
+            <ProductsCard />
+            <ProductsCard />
         </div>
     );
 };
