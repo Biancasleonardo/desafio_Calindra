@@ -1,10 +1,12 @@
 import React from 'react'
+import { AppContainer } from './AppStyle';
+import HomePage from './pages/HomePage/HomePage';
 
 function App() {
   return (
-    <div>
-      Oi
-    </div>
+    <AppContainer>
+      <HomePage />
+    </AppContainer>
   );
 }
 
