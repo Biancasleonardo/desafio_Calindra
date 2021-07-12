@@ -8,6 +8,7 @@ export const CardProduct = styled(Card)`
 export const ContainerMeta = styled.div`
     display: flex;
     justify-content: space-between;
+    margin-top: 8px;
 `
 
 export const Score = styled.div`

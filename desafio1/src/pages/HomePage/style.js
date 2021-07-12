@@ -16,8 +16,3 @@ export const ContainerCards = styled.div`
     padding: 10px 0;
     width: 100%;
 `
-
-export const ContainerText = styled.div`
-    border: 1px red solid;
-    width: 100%;
-`

@@ -7,4 +7,5 @@ export const ContainerSuggestions = styled.div`
 export const ButtonItem = styled.button`
     border: none;
     margin: 0 2px;
+    padding: 4px;
 `

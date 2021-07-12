@@ -1,9 +1,11 @@
 import { CardContent, Typography } from '@material-ui/core';
 import React from 'react';
 import { CardProduct, ContainerMeta, Score, Visits } from './style';
+import ScoreIcon from '@material-ui/icons/Score';
+import VisibilityIcon from '@material-ui/icons/Visibility';
 
 const ProductsCard = ({ products }) => {
-    const {name, type, _meta} = products
+    const { name, type, _meta } = products
 
     return (
         <CardProduct variant="outlined">
@@ -16,13 +18,15 @@ const ProductsCard = ({ products }) => {
                 </Typography>
                 <ContainerMeta>
                     <Score>
+                        <ScoreIcon fontSize='small' />
                         <Typography variant="body2" component="span">
-                            Score: {(_meta.score)}
+                            {(_meta.score)}
                         </Typography>
                     </Score>
                     <Visits>
+                        <VisibilityIcon fontSize='small'/>
                         <Typography variant="body2" component="span">
-                            Visualizações: {(_meta.visitsClickCount)}
+                            {(_meta.visitsClickCount)}
                         </Typography>
                     </Visits>
                 </ContainerMeta>
