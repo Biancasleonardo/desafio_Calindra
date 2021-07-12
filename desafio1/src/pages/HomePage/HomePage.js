@@ -11,7 +11,6 @@ const HomePage = () => {
     const getProducts = (search) => {
         axios.get(`https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=${search}&source=nanook`)
             .then((res) => {
-                console.log(res.data)
                 setProducts(res.data)
             })
             .catch((err) => {
