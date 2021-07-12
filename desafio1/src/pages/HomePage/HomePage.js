@@ -2,19 +2,22 @@ import React from 'react';
 import ProductsCard from '../../components/ProductsCard/ProductsCard';
 import Search from '../../components/Search/Search';
 import Suggestions from '../../components/Suggestions/Suggestions';
+import { ContainerBody, ContainerCards } from './style';
 
 const HomePage = () => {
     return (
-        <div>
+        <ContainerBody>
             <Search />
             <Suggestions />
-            <ProductsCard />
-            <ProductsCard />
-            <ProductsCard />
-            <ProductsCard />
-            <ProductsCard />
-            <ProductsCard />
-        </div>
+            <ContainerCards>
+                <ProductsCard />
+                <ProductsCard />
+                <ProductsCard />
+                <ProductsCard />
+                <ProductsCard />
+                <ProductsCard />
+            </ContainerCards>
+        </ContainerBody>
     );
 };
 

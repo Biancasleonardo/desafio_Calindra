@@ -6,5 +6,4 @@ export const AppContainer = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    border: 1px red solid;
 `
