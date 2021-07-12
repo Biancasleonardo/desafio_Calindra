@@ -2,25 +2,27 @@ import { CardContent, Typography } from '@material-ui/core';
 import React from 'react';
 import { CardProduct, ContainerMeta, Score, Visits } from './style';
 
-const ProductsCard = () => {
+const ProductsCard = ({ products }) => {
+    const {name, type, _meta} = products
+
     return (
         <CardProduct variant="outlined">
             <CardContent>
                 <Typography variant="body1" component="h2">
-                    Nome do Produto
+                    {name}
                 </Typography>
                 <Typography variant="body2">
-                    Composição: Orgânico
+                    {type}
                 </Typography>
                 <ContainerMeta>
                     <Score>
                         <Typography variant="body2" component="span">
-                            Score: 35.0000
+                            Score: {(_meta.score)}
                         </Typography>
                     </Score>
                     <Visits>
                         <Typography variant="body2" component="span">
-                            Visualizações: 35
+                            Visualizações: {(_meta.visitsClickCount)}
                         </Typography>
                     </Visits>
                 </ContainerMeta>
