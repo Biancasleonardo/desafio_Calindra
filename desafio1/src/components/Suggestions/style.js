@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerSuggestions = styled.div`
-    padding: 10px;
+    padding: 10px 0;
 `
 
 export const ButtonItem = styled.button`
