@@ -12,7 +12,7 @@ const Search = ({getProducts}) => {
         <SectionSearch>
             <TextField
                 id="outlined-basic"
-                label="O que você está procurando?"
+                label="Nome do Produto"
                 variant="outlined"
                 value={inputSearch}
                 onChange={onChangeInput}

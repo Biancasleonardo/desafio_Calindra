@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const CardProduct = styled(Card)`
     width: 250px;
+    margin: 6px;
 `
 
 export const ContainerMeta = styled.div`

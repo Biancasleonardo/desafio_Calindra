@@ -2,17 +2,20 @@ import styled from "styled-components";
 
 export const ContainerBody = styled.body`
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     padding: 10px;
     background-color: white;
+
+    @media(max-width: 700px){
+        min-height: auto;
+    }
 `
 
 export const ContainerCards = styled.div`
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
     padding: 10px 0;
     width: 100%;
 `
