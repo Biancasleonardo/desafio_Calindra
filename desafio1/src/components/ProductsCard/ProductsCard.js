@@ -12,7 +12,7 @@ const ProductsCard = ({ products }) => {
                     {name}
                 </Typography>
                 <Typography variant="body2">
-                    {type}
+                    Tipo: {type}
                 </Typography>
                 <ContainerMeta>
                     <Score>

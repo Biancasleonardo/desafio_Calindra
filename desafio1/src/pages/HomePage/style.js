@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerBody = styled.body`
     width: 100%;
     border: 1px red solid;
+    box-sizing: border-box;
 `
 
 export const ContainerCards = styled.div`
@@ -11,5 +12,10 @@ export const ContainerCards = styled.div`
     gap: 10px;
     justify-items: center;
     padding: 10px;
+    width: 100%;
+`
+
+export const ContainerText = styled.div`
+    border: 1px red solid;
     width: 100%;
 `
