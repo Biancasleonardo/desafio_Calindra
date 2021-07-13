@@ -68,7 +68,7 @@ export const ContainerTapes = styled.section`
 `
 
 export const ContainerImage = styled.div`
-    width: 50%;
+    width: 55%;
 `
 
 export const ContainerDescription = styled.div`
