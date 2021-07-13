@@ -9,11 +9,20 @@ export const HeaderContainer = styled.header`
 
     background-color: #FFFFFF;
     font-family: 'Roboto Condensed';
+
+    @media(max-width: 720px){
+        flex-direction: column;
+        height: auto;
+    }
 `
 
 export const LogoSection = styled.section`
     display: flex;
     align-items: center;
+
+    @media(max-width: 720px){
+        flex-direction: column;
+    }
 
     div {
         color: #846219;
@@ -35,7 +44,11 @@ export const LogoSection = styled.section`
 `
 
 export const SectionMenu = styled.section`
-    
+    @media(max-width: 720px){
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
     a{
         text-decoration: none;
         color: #846219;

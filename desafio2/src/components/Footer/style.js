@@ -10,6 +10,12 @@ export const ContainerFooter = styled.footer`
     background-color: #E9E9E9;
     color: #716565;
 
+    @media(max-width: 720px){
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        }
+
     h5{
         font-style: normal;
         font-weight: bold;
@@ -23,6 +29,10 @@ export const FollowSection = styled.section`
     flex-direction: column;
     width: 30%;
 
+    @media(max-width: 720px){
+        width: 100%;
+        }
+
     img {
         width: 38.61px;
         height: 38.61px;
@@ -32,4 +42,8 @@ export const FollowSection = styled.section`
 
 export const ContactSection = styled.section`
     width: 120px;
+
+    @media(max-width: 720px){
+        width: 100%;
+        }
 `
