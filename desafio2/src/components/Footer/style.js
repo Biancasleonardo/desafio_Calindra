@@ -6,7 +6,6 @@ export const ContainerFooter = styled.footer`
     padding: 0 100px;
     align-items: center;
 
-    font-family: 'Roboto Condensed';
     background-color: #E9E9E9;
     color: #716565;
 

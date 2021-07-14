@@ -9,7 +9,6 @@ export const HeaderContainer = styled.div`
     width: 100%;
 
     background-color: #FFFFFF;
-    font-family: 'Roboto Condensed';
 
     @media(max-width: 720px){
         height: auto;

@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerMain = styled.main`
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto Condensed';
     width: 100%;
 
 `
