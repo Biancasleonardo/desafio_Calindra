@@ -11,7 +11,7 @@ const Main = () => {
                     <h2>Measuring everything</h2>
                 </div>
                 <div>
-                    <img src={Image1} />
+                    <img src={Image1} alt='Imagem de uma fita métrica enrolada'/>
                 </div>
             </ContainerMeasuring>
             <ContainerTapes>
@@ -20,7 +20,7 @@ const Main = () => {
                     <p>There are 5x the circumference of planet earth in metric tapes.</p>
                 </ContainerDescription>
                 <ContainerImage>
-                    <img src={Image2} />
+                    <img src={Image2} alt='Imagem de uma fita métrica'/>
                 </ContainerImage>
             </ContainerTapes>
         </ContainerMain>

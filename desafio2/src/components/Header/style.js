@@ -6,7 +6,6 @@ export const HeaderContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
-    width: 100%;
 
     background-color: #FFFFFF;
 

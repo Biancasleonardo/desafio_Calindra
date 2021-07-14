@@ -13,7 +13,6 @@ export const ContainerFooter = styled.footer`
         flex-direction: column;
         height: auto;
         text-align: center;
-        padding-top: 25px;
         }
 
     h5{
@@ -31,7 +30,6 @@ export const FollowSection = styled.section`
 
     @media(max-width: 720px){
         width: 100%;
-        margin-bottom: 25px;
         }
 
     img {
