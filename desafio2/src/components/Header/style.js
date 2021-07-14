@@ -1,18 +1,25 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header`
+export const HeaderContainer = styled.div`
     display: flex;
     height: 100px;
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
+    width: 100%;
 
     background-color: #FFFFFF;
     font-family: 'Roboto Condensed';
 
     @media(max-width: 720px){
-        flex-direction: column;
         height: auto;
+        position: relative;
+        padding: 10px 0;
+        justify-content: center;
+        
+        img{
+            width: 38px;
+        }
     }
 `
 
@@ -22,6 +29,10 @@ export const LogoSection = styled.section`
 
     @media(max-width: 720px){
         flex-direction: column;
+
+        div{
+            display: none;
+        }
     }
 
     div {
@@ -48,6 +59,7 @@ export const SectionMenu = styled.section`
         display: flex;
         flex-direction: column;
         height: auto;
+        display: none;
     }
     a{
         text-decoration: none;
@@ -56,5 +68,25 @@ export const SectionMenu = styled.section`
         font-weight: 300;
         letter-spacing: 5.4px;
         padding: 0 0 0 100px;
+    }
+`
+
+export const ToogleSection = styled.section`
+    display: none;
+
+    @media(max-width: 720px){
+        display: flex;
+        position: absolute;
+        left: 20px;
+
+        button{
+            border: none;
+            background-color: inherit;
+
+            img{
+                width: 32px;
+                color: #846219;
+            }
+        }
     }
 `

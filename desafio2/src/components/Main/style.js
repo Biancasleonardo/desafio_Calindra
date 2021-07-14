@@ -12,7 +12,7 @@ export const ContainerMeasuring = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1024px;
+    height: 100vh;
     padding: 0 60px;
 
     background-color: #E9E9E9;
@@ -57,7 +57,7 @@ export const ContainerTapes = styled.section`
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 1024px;
+    height: 820px;
 
     color: #FFFFFF;
     background-color: #506FA9;
